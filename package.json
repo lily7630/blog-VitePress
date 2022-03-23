@@ -1,0 +1,20 @@
+{
+  "name": "lili-blog",
+  "version": "1.0.0",
+  "description": "李里的博客",
+  "main": "index.js",
+  "scripts": {
+    "serve": "vitepress dev docs --open",
+    "build": "vitepress build docs",
+    "deploy": "bash deploy.sh"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@gitee.com:lexy007/lili-blog.git"
+  },
+  "author": "lili",
+  "license": "ISC",
+  "dependencies": {
+    "vitepress": "^0.20.5"
+  }
+}
